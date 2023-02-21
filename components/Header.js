@@ -61,7 +61,7 @@ export default function Header() {
                 <a className="navbar-brand" href="main-home.html">
                   <img
                     className="img-fluid logo"
-                    src="~/assets/brand.png"
+                    src="/brand.png"
                     alt="techtrix"
                   />
                 </a>
@@ -73,7 +73,7 @@ export default function Header() {
                     <ul id="pq-main-menu" className="navbar-nav ml-auto">
                       <li className="menu-item current-menu-item manu-item-has-children">
                         <a href="#">Home</a>
-                        <i className="fa fa-chevron-down pq-submenu-icon"></i>
+                        <i className="fa  pq-submenu-icon"></i>
                         <ul className="sub-menu">
                           <li className="menu-item">
                             <a href="main-home.html" aria-current="page">
@@ -99,7 +99,7 @@ export default function Header() {
                       </li>
                       <li className="menu-item">
                         <a href="#">Services</a>
-                        <i className="fa fa-chevron-down pq-submenu-icon"></i>
+                        <i className="fa  pq-submenu-icon"></i>
                         <ul className="sub-menu">
                           <li className="menu-item">
                             <a href="software-development.html">
@@ -127,7 +127,7 @@ export default function Header() {
                       </li>
                       <li className="menu-item">
                         <a href="#">Pages</a>
-                        <i className="fa fa-chevron-down pq-submenu-icon"></i>
+                        <i className="fa  pq-submenu-icon"></i>
                         <ul className="sub-menu">
                           <li className="menu-item">
                             <a href="about-us.html">About Us</a>
@@ -154,11 +154,11 @@ export default function Header() {
                       </li>
                       <li className="menu-item">
                         <a href="#">Portfolio</a>
-                        <i className="fa fa-chevron-down pq-submenu-icon"></i>
+                        <i className="fa  pq-submenu-icon"></i>
                         <ul className="sub-menu">
                           <li className="menu-item menu-item-has-children">
                             <a href="#">Types</a>
-                            <i className="fa fa-chevron-down pq-submenu-icon"></i>
+                            <i className="fa  pq-submenu-icon"></i>
                             <ul className="sub-menu">
                               <li className="menu-item">
                                 <a href="standard.html">Standard</a>
@@ -173,7 +173,7 @@ export default function Header() {
                           </li>
                           <li className="menu-item menu-item-has-children">
                             <a href="#">Columns</a>
-                            <i className="fa fa-chevron-down pq-submenu-icon"></i>
+                            <i className="fa  pq-submenu-icon"></i>
                             <ul className="sub-menu">
                               <li className="menu-item">
                                 <a href="2-columns.html">2 columns</a>
@@ -196,11 +196,11 @@ export default function Header() {
                       </li>
                       <li className="menu-item">
                         <a href="#">Blog</a>
-                        <i className="fa fa-chevron-down pq-submenu-icon"></i>
+                        <i className="fa  pq-submenu-icon"></i>
                         <ul className="sub-menu">
                           <li className="menu-item menu-item-has-children">
                             <a href="#">Grid Style</a>
-                            <i className="fa fa-chevron-down pq-submenu-icon"></i>
+                            <i className="fa  pq-submenu-icon"></i>
                             <ul className="sub-menu">
                               <li className="menu-item">
                                 <a href="one-column-blog.html">
@@ -221,7 +221,7 @@ export default function Header() {
                           </li>
                           <li className="menu-item menu-item-has-children">
                             <a href="#">Blog Sidebar</a>
-                            <i className="fa fa-chevron-down pq-submenu-icon"></i>
+                            <i className="fa  pq-submenu-icon"></i>
                             <ul className="sub-menu">
                               <li className="menu-item">
                                 <a href="blog-right-sidebar.html">
