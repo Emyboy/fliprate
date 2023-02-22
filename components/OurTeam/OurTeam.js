@@ -4,7 +4,7 @@ import { TeamData } from "@/Data";
 
 export default function OurTeam() {
   return (
-    <section className="our-team pb-0">
+    <section className="our-team pb-0" id='our-team'>
       <div className="container">
         <div className="row">
           <div className="col-xl-12">

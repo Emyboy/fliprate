@@ -80,11 +80,11 @@ export default function Header() {
                         <i className="fa  pq-submenu-icon"></i>
                       </li>
                       <li className="menu-item manu-item-has-children">
-                        <a href="#">Services</a>
+                        <a href="#services">Services</a>
                         <i className="fa  pq-submenu-icon"></i>
                       </li>
                       <li className="menu-item manu-item-has-children">
-                        <a href="#">Our Team</a>
+                        <a href="#our-team">Our Team</a>
                         <i className="fa  pq-submenu-icon"></i>
                       </li>
                       
