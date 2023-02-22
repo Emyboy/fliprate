@@ -125,7 +125,10 @@ export default function ContactUs() {
                     />
                   </div>
                   <div className="col-md-12">
-                    <select className="pq-bg-white e-mail-field mb-3">
+                    <select
+                      className="pq-bg-white e-mail-field mb-3"
+                      style={{ borderColor: "#e9ecef", color: "#6c757d" }}
+                    >
                       <option>Select Service</option>
                       <option>Build web3 technology</option>
                       <option>Supply of Bulk crypto currency</option>

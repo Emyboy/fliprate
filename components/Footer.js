@@ -149,7 +149,7 @@ export default function Footer() {
                 <span className="pq-copyright">
                   <a target="_blank" href="#">
                     {" "}
-                    Copyright 2022 Techtrix All Rights Reserved.
+                    Copyright 2022 Fliprate All Rights Reserved.
                   </a>
                 </span>
               </div>

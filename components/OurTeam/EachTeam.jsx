@@ -13,7 +13,7 @@ export default function EachTeam({ team }) {
           </div>
           <div className="pq-team-info">
             <h5>{team?.name}</h5>
-            <span className="pq-team-designation">{team?.title}</span>
+            <span className="pq-team-designation">{'Co-founder'}</span>
             {/* <div className="pq-team-social">
               <ul>
                 <li>
