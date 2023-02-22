@@ -8,7 +8,7 @@ export default function Header() {
           <div className="row flex-row-reverse">
             <div className="col-md-6 text-right">
               <div className="pq-header-social text-right">
-                <ul>
+                {/* <ul>
                   <li>
                     <a href="#">
                       <i className="fab fa-facebook-f"></i>
@@ -29,7 +29,7 @@ export default function Header() {
                       <i className="fab fa-skype"></i>
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
             <div className="col-md-6">
@@ -75,32 +75,26 @@ export default function Header() {
                         <a href="#">Home</a>
                         <i className="fa  pq-submenu-icon"></i>
                       </li>
-                      <li className="menu-item">
+                      <li className="menu-item manu-item-has-children">
+                        <a href="#about-us">About Us</a>
+                        <i className="fa  pq-submenu-icon"></i>
+                      </li>
+                      <li className="menu-item manu-item-has-children">
                         <a href="#">Services</a>
                         <i className="fa  pq-submenu-icon"></i>
                       </li>
-                      <li className="menu-item">
-                        <a href="#">Pages</a>
+                      <li className="menu-item manu-item-has-children">
+                        <a href="#">Our Team</a>
                         <i className="fa  pq-submenu-icon"></i>
                       </li>
-                      <li className="menu-item">
-                        <a href="#">Portfolio</a>
-                        <i className="fa  pq-submenu-icon"></i>
-                      </li>
-                      <li className="menu-item">
-                        <a href="#">Blog</a>
-                        <i className="fa  pq-submenu-icon"></i>
-                      </li>
-                      <li className="menu-item">
-                        <a href="contact-us.html">Contact Us</a>
-                      </li>
+                      
                     </ul>
                   </div>
                 </div>
                 <div className="pq-menu-search-block">
-                  <a href="javascript:void(0)" id="pq-seacrh-btn">
+                  {/* <a href="javascript:void(0)" id="pq-seacrh-btn">
                     <i className="fa fa-search"></i>
-                  </a>
+                  </a> */}
                   <div className="pq-search-form">
                     <form
                       role="search"
@@ -124,12 +118,9 @@ export default function Header() {
                     </form>
                   </div>
                 </div>
-                <a
-                  href="https://techtrix.peacefulqode.com/contact-us/"
-                  className="pq-button"
-                >
+                <a href="#contact-form" className="pq-button">
                   <div className="pq-button-block">
-                    <span className="pq-button-text">Free Quote</span>
+                    <span className="pq-button-text">Contact Us</span>
                   </div>
                 </a>
                 <button

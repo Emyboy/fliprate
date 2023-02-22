@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ContactUs() {
   return (
-    <section className="benefit pq-pt-200 pq-bg-dark">
+    <section className="benefit pq-pt-200 pq-bg-dark" id='contact-form'>
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-12">
