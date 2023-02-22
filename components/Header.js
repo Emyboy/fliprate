@@ -71,7 +71,7 @@ export default function Header() {
                 >
                   <div id="pq-menu-contain" className="pq-menu-contain">
                     <ul id="pq-main-menu" className="navbar-nav ml-auto">
-                      <li className="menu-item current-menu-item manu-item-has-children">
+                      <li className="menu-item manu-item-has-children">
                         <a href="#">Home</a>
                         <i className="fa  pq-submenu-icon"></i>
                       </li>
