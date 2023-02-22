@@ -36,15 +36,15 @@ export default function Header() {
               <div className="pq-header-contact">
                 <ul>
                   <li>
-                    <a href="tel:+180045647824">
+                    <a href="tel:+254 [0] 114569838">
                       <i className="fas fa-phone-flip"></i>
-                      <span>+1-800-456-478-24</span>
+                      <span>+254 [0] 114569838</span>
                     </a>
                   </li>
                   <li>
-                    <a href="mailto:peacefulqode@gmail.com">
+                    <a href="mailto:info@flip.co.ke">
                       <i className="fas fa-envelope"></i>
-                      <span>peacefulqode@gmail.com</span>
+                      <span>info@flip.co.ke</span>
                     </a>
                   </li>
                 </ul>
@@ -78,7 +78,6 @@ export default function Header() {
                       <li className="menu-item">
                         <a href="#">Services</a>
                         <i className="fa  pq-submenu-icon"></i>
-                        
                       </li>
                       <li className="menu-item">
                         <a href="#">Pages</a>
@@ -87,12 +86,10 @@ export default function Header() {
                       <li className="menu-item">
                         <a href="#">Portfolio</a>
                         <i className="fa  pq-submenu-icon"></i>
-                        
                       </li>
                       <li className="menu-item">
                         <a href="#">Blog</a>
                         <i className="fa  pq-submenu-icon"></i>
-                        
                       </li>
                       <li className="menu-item">
                         <a href="contact-us.html">Contact Us</a>

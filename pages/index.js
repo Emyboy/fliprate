@@ -9,6 +9,8 @@ import Services from '@/components/Services'
 import ReadMore from '@/components/ReadMore'
 import Solution from '@/components/Solution'
 import Hero from '@/components/Hero'
+import OurTeam from '@/components/OurTeam/OurTeam'
+import ContactUs from '@/components/ContactUs'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,11 +24,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
-      <Features />
+      {/* <Features /> */}
       <About />
       <Services />
-      <ReadMore />
-      <Solution />
+      <OurTeam />
+      <ContactUs />
+      {/* <ReadMore /> */}
+      {/* <Solution /> */}
     </Layout>
   )
 }
