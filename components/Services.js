@@ -1,64 +1,290 @@
-import React from 'react'
+import React from "react";
 
 export default function Services() {
   return (
-    <section className="assistance" id='services'>
-        <div className="container">
-            <div className="row justify-content-center">
-                <div className="col-lg-12">
-                    <div className="pq-section pq-style-1 text-center">
-                        <span className="pq-section-sub-title"># services</span>
-                        <h5 className="pq-section-title added" id="services" data-high_text="Services" data-title_text="We Offer A Wide Variety Of It Services" data-rough_color="#fd4a18" data-rough_type="underline"> We  Offer  A  Wide  Variety  Of  It <span className="last-word"> Services </span>
-                        
-                        {/* <svg className="rough-annotation" style="position: absolute; top: 0px; left: 0px; overflow: visible; pointer-events: none; width: 100px; height: 100px;"><path d="M300.7069211695343 114.69802459143102 C376.01848104182574 110.63303186920574, 456.57889078289156 113.2187856080859, 498.1351391170174 114.62844254635274" fill="none" stroke="#fd4a18" stroke-width="2" style="stroke-dashoffset: 197.492; stroke-dasharray: 197.492; animation: 401.351ms ease-out 0ms 1 normal forwards running rough-notation-dash;"></path><path d="M496.07898559235036 114.04165334440768 C435.8226370177319 116.8013495472433, 370.1289314942609 114.08908423457164, 300.0063002910465 111.02759910561144" fill="none" stroke="#fd4a18" stroke-width="2" style="stroke-dashoffset: 196.162; stroke-dasharray: 196.162; animation: 398.649ms ease-out 401.351ms 1 normal forwards running rough-notation-dash;"></path></svg><svg className="rough-annotation" style="position: absolute; top: 0px; left: 0px; overflow: visible; pointer-events: none; width: 100px; height: 100px;"><path d="M300.7889830553904 115.9073167508468 C349.82054907481506 113.4041572554982, 402.3719601030898 113.7258266254342, 496.19115338567644 110.4932049876079" fill="none" stroke="#fd4a18" stroke-width="2" style="stroke-dashoffset: 195.482; stroke-dasharray: 195.482; animation: 394.014ms ease-out 0ms 1 normal forwards running rough-notation-dash;"></path><path d="M496.8726305728778 114.0785083854571 C419.92074544424975 118.11000636761099, 345.51754252845126 117.45413661544234, 295.528168505989 115.12820259574801" fill="none" stroke="#fd4a18" stroke-width="2" style="stroke-dashoffset: 201.422; stroke-dasharray: 201.422; animation: 405.986ms ease-out 394.014ms 1 normal forwards running rough-notation-dash;"></path></svg> */}
-                        
-                        </h5>
-                    </div>
-                </div>
-                <div className="col-xl-4 col-lg-6 col-md-6">
-                    <div className="pq-image-box pq-style-1">
-                        <img src="/assets/images/image-box/1.jpg" alt="" />
-                        <div className="pq-image-box-meta pq-bg-grey">
-                            <div className="pq-icon">
-                                <a href="services.html"><i className="flaticon-data-analysis"></i></a>
-                            </div>
-                            <div className="pq-image-box-content">
-                                <span className="pq-image-box-sub-title"><a href="services.html">STRATEGIES</a></span>
-                                <h5 className="pq-text-dark">Managed It Services</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-xl-4 col-lg-6 col-md-6 mt-4 mt-md-0">
-                    <div className="pq-image-box pq-style-1">
-                        <img src="/assets/images/image-box/2.jpg" alt="" />
-                        <div className="pq-image-box-meta pq-bg-grey">
-                            <div className="pq-icon">
-                                <a href="services.html"><i className="flaticon-design"></i></a>
-                            </div>
-                            <div className="pq-image-box-content">
-                                <span className="pq-image-box-sub-title"><a href="services.html">STRATEGIES</a></span>
-                                <h5 className="pq-text-dark">Data Security</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-xl-4 col-lg-6 col-md-6 mt-4 mt-xl-0">
-                    <div className="pq-image-box pq-style-1">
-                        <img src="/assets/images/image-box/3.jpg" alt="" />
-                        <div className="pq-image-box-meta pq-bg-grey">
-                            <div className="pq-icon">
-                                <a href="services.html"><i className="flaticon-data-analytics"></i></a>
-                            </div>
-                            <div className="pq-image-box-content">
-                                <span className="pq-image-box-sub-title"><a href="services.html">STRATEGIES</a></span>
-                                <h5 className="pq-text-dark">Business Security</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <section className="service" id="our-services">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="pq-section pq-style-1 text-center">
+              <span className="pq-section-sub-title"># our services</span>
+              <h5
+                className="pq-section-title added"
+                id="exclusive"
+                data-high_text="Exclusive"
+                data-title_text="Provide Exclusive Services"
+                data-rough_color="#ffffff"
+                data-rough_type="underline"
+              >
+                {" "}
+                <span className="last-word"> Exclusive </span>
+                Services{" "}
+              </h5>
             </div>
+          </div>
+          <div className="col-lg-12">
+            <div className="pq-tabs-1">
+              <div
+                className="nav nav-tabs nav-fill"
+                id="nav-tab"
+                role="tablist"
+              >
+                <a
+                  className="pq-tabs nav-item nav-link active"
+                  id="nav-home-0"
+                  data-bs-toggle="tab"
+                  href="#nav-0"
+                  role="tab"
+                  aria-controls="nav-home-0"
+                  aria-selected="true"
+                >
+                  <div className="pq-tabs-icon">
+                    <i className=" flaticon-marketing"></i>
+                    <span>Mobile Development</span>
+                  </div>
+                </a>
+                <a
+                  className="pq-tabs nav-item nav-link "
+                  id="nav-home-1"
+                  data-bs-toggle="tab"
+                  href="#nav-1"
+                  role="tab"
+                  aria-controls="nav-home-1"
+                  aria-selected="false"
+                  tabindex="-1"
+                >
+                  <div className="pq-tabs-icon">
+                    <i className=" flaticon-call-center"></i>
+                    <span>Software Development</span>
+                  </div>
+                </a>
+                <a
+                  className="pq-tabs nav-item nav-link "
+                  id="nav-home-2"
+                  data-bs-toggle="tab"
+                  href="#nav-2"
+                  role="tab"
+                  aria-controls="nav-home-2"
+                  aria-selected="false"
+                  tabindex="-1"
+                >
+                  <div className="pq-tabs-icon">
+                    <i className=" flaticon-data-analytics"></i>
+                    <span>QA Testing</span>
+                  </div>
+                </a>
+                <a
+                  className="pq-tabs nav-item nav-link "
+                  id="nav-home-3"
+                  data-bs-toggle="tab"
+                  href="#nav-3"
+                  role="tab"
+                  aria-controls="nav-home-3"
+                  aria-selected="false"
+                  tabindex="-1"
+                >
+                  <div className="pq-tabs-icon">
+                    <i className=" flaticon-ux-design"></i>
+                    <span>Product design</span>
+                  </div>
+                </a>
+              </div>
+              <div className="tab-content text-left" id="nav-tabContent">
+                <div
+                  className="tab-pane fade show  active"
+                  id="nav-0"
+                  role="tabpanel"
+                  aria-labelledby="nav-home-0"
+                >
+                  <div className="row align-items-center">
+                    <div className="col-lg-6">
+                      <img src="/assets/images/tabs/1.jpg" alt="seo-image" />
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="pq-tab-info">
+                        <h2>Cloud Hosting</h2>
+                        <p>
+                          It is a long established fact that a reader will be
+                          distracted by the readable content of a page when
+                          looking at its layout. The point of using Lorem Ipsum.
+                        </p>
+                        <h3>&nbsp;</h3>
+                        <ul>
+                          <li>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                          </li>
+                          <li>
+                            Donec lobortis dui id diam facilisis, vitae
+                            pellentesque sem convallis.
+                          </li>
+                          <li>
+                            Vivamus volutpat dui nec mauris ultrices lacinia.
+                          </li>
+                          <li>
+                            Praesent ac velit aliquam, lacinia mi nec, feugiat
+                            ligula.
+                          </li>
+                        </ul>
+                        <div className="pq-btn-container">
+                          <div className="pq-button-block">
+                            <a className="pq-button" href="contact-us.html">
+                              <span className="text">Read more</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="tab-pane fade show"
+                  id="nav-1"
+                  role="tabpanel"
+                  aria-labelledby="nav-home-1"
+                >
+                  <div className="row flex-row-reverse">
+                    <div className="col-lg-6">
+                      <img src="/assets/images/tabs/2.jpg" alt="seo-image" />
+                    </div>
+                    <div className="col-lg-6 align-self-center">
+                      <div className="pq-tab-info">
+                        <h2>Domain Sale</h2>
+                        <p>
+                          It is a long established fact that a reader will be
+                          distracted by the readable content of a page when
+                          looking at its layout. The point of using Lorem Ipsum.
+                        </p>
+                        <h3>&nbsp;</h3>
+                        <ul>
+                          <li>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                          </li>
+                          <li>
+                            Donec lobortis dui id diam facilisis, vitae
+                            pellentesque sem convallis.
+                          </li>
+                          <li>
+                            Vivamus volutpat dui nec mauris ultrices lacinia.
+                          </li>
+                          <li>
+                            Praesent ac velit aliquam, lacinia mi nec, feugiat
+                            ligula.
+                          </li>
+                        </ul>
+                        <div className="pq-btn-container">
+                          <div className="pq-button-block">
+                            <a className="pq-button" href="contact-us.html">
+                              <span className="text">Read more</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="tab-pane fade show  "
+                  id="nav-2"
+                  role="tabpanel"
+                  aria-labelledby="nav-home-2"
+                >
+                  <div className="row">
+                    <div className="col-lg-6">
+                      <img src="/assets/images/tabs/3.jpg" alt="seo-image" />
+                    </div>
+                    <div className="col-lg-6 align-self-center">
+                      <div className="pq-tab-info">
+                        <h2>Cloud Hosting</h2>
+                        <p>
+                          It is a long established fact that a reader will be
+                          distracted by the readable content of a page when
+                          looking at its layout. The point of using Lorem Ipsum.
+                        </p>
+                        <h3>&nbsp;</h3>
+                        <ul>
+                          <li>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                          </li>
+                          <li>
+                            Donec lobortis dui id diam facilisis, vitae
+                            pellentesque sem convallis.
+                          </li>
+                          <li>
+                            Vivamus volutpat dui nec mauris ultrices lacinia.
+                          </li>
+                          <li>
+                            Praesent ac velit aliquam, lacinia mi nec, feugiat
+                            ligula.
+                          </li>
+                        </ul>
+                        <div className="pq-btn-container">
+                          <div className="pq-button-block">
+                            <a className="pq-button" href="contact-us.html">
+                              <span className="text">Read more</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="tab-pane fade show  "
+                  id="nav-3"
+                  role="tabpanel"
+                  aria-labelledby="nav-home-3"
+                >
+                  <div className="row flex-row-reverse">
+                    <div className="col-lg-6">
+                      <img src="/assets/images/tabs/4.jpg" alt="seo-image" />
+                    </div>
+                    <div className="col-lg-6 align-self-center">
+                      <div className="pq-tab-info">
+                        <h2>Share Hosting</h2>
+                        <p>
+                          It is a long established fact that a reader will be
+                          distracted by the readable content of a page when
+                          looking at its layout. The point of using Lorem Ipsum
+                          is that it has a more-or-less normal distribution of
+                          letters
+                        </p>
+                        <h3>&nbsp;</h3>
+                        <ul>
+                          <li>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                          </li>
+                          <li>
+                            Donec lobortis dui id diam facilisis, vitae
+                            pellentesque sem convallis.
+                          </li>
+                          <li>
+                            Vivamus volutpat dui nec mauris ultrices lacinia.
+                          </li>
+                          <li>
+                            Praesent ac velit aliquam, lacinia mi nec, feugiat
+                            ligula.
+                          </li>
+                        </ul>
+                        <div className="pq-btn-container">
+                          <div className="pq-button-block">
+                            <a className="pq-button" href="contact-us.html">
+                              <span className="text">Read more</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-  )
+  );
 }

@@ -58,7 +58,7 @@ export default function Header() {
           <div className="row">
             <div className="col-lg-12">
               <nav className="navbar navbar-expand-lg navbar-light">
-                <a className="navbar-brand" href="main-home.html">
+                <a className="navbar-brand" href="/">
                   <img
                     className="img-fluid logo"
                     src="/brand.png"
@@ -72,7 +72,7 @@ export default function Header() {
                   <div id="pq-menu-contain" className="pq-menu-contain">
                     <ul id="pq-main-menu" className="navbar-nav ml-auto">
                       <li className="menu-item manu-item-has-children">
-                        <a href="#">Home</a>
+                        <a href="/">Home</a>
                         <i className="fa  pq-submenu-icon"></i>
                       </li>
                       <li className="menu-item manu-item-has-children">

@@ -155,7 +155,7 @@ export default function Footer() {
               </div>
               <div className="col-lg-6 col-md-6">
                 <div className="pq-footer-link">
-                  <ul>
+                  {/* <ul>
                     <li>
                       <a href="#">Career</a>
                     </li>
@@ -165,7 +165,7 @@ export default function Footer() {
                     <li>
                       <a href="#">Privacy Policy</a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>

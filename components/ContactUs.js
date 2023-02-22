@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ContactUs() {
   return (
-    <section className="benefit pq-pt-200 pq-bg-dark" id='contact-form'>
+    <section className="benefit pq-pt-200 pq-bg-dark" id="contact-form">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-12">
@@ -31,7 +31,7 @@ export default function ContactUs() {
               <li className="pq-list-item">
                 <a href="#">
                   <i className="ion ion-android-done-all"></i>
-                  <span className='text-white'>
+                  <span className="text-white">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit
                     ooking at its layout
                   </span>
@@ -40,7 +40,7 @@ export default function ContactUs() {
               <li className="pq-list-item">
                 <a href="#">
                   <i className="ion ion-android-done-all"></i>
-                  <span className='text-white'>
+                  <span className="text-white">
                     Vestibulum blandit justo at felis dapibus varius
                     more-or-less.
                   </span>
@@ -49,7 +49,7 @@ export default function ContactUs() {
               <li className="pq-list-item">
                 <a href="#">
                   <i className="ion ion-android-done-all"></i>
-                  <span className='text-white'>
+                  <span className="text-white">
                     Nunc ut risus suscipit, egestas diam in, consequat odio use
                     Lorem Ipsum.
                   </span>
@@ -58,7 +58,7 @@ export default function ContactUs() {
               <li className="pq-list-item">
                 <a href="#">
                   <i className="ion ion-android-done-all"></i>
-                  <span className='text-white'>
+                  <span className="text-white">
                     Proin sed nunc consectetur, convallis risus nec, efficitur
                     felis.
                   </span>
@@ -67,7 +67,7 @@ export default function ContactUs() {
               <li className="pq-list-item">
                 <a href="#">
                   <i className="ion ion-android-done-all"></i>
-                  <span className='text-white'>
+                  <span className="text-white">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit
                     ooking at its layout
                   </span>
@@ -84,7 +84,7 @@ export default function ContactUs() {
             <div className="inquiry-form pq-bg-grey">
               <div className="pq-form-section pq-style-1 text-center">
                 <span className="pq-form-sub-title"># help you 24/7</span>
-                <h5 className="pq-form-title">Request A Quote</h5>
+                <h5 className="pq-form-title">React Out To Us</h5>
               </div>
               <form action="#" className="pq-applyform">
                 <div className="row">
@@ -94,7 +94,7 @@ export default function ContactUs() {
                       id="first-name"
                       className="pq-bg-white name-field"
                       placeholder="Your Name"
-                      required=""
+                      required
                     />
                   </div>
                   <div className="col-md-12">
@@ -103,27 +103,36 @@ export default function ContactUs() {
                       id="e-mail"
                       className="pq-bg-white e-mail-field"
                       placeholder="Email"
-                      required=""
+                      required
                     />
                   </div>
                   <div className="col-md-12">
                     <input
                       type="text"
-                      id="phone-number"
-                      className="pq-bg-white phone-number-field"
-                      placeholder="Cell Phone"
-                      required=""
+                      id="country"
+                      className="pq-bg-white e-mail-field"
+                      placeholder="Country"
+                      required
                     />
                   </div>
                   <div className="col-md-12">
                     <input
                       type="text"
-                      id="subject"
-                      className="pq-bg-white subject-field"
-                      placeholder="Subject"
-                      required=""
+                      id="state"
+                      className="pq-bg-white e-mail-field"
+                      placeholder="State"
+                      required
                     />
                   </div>
+                  <div className="col-md-12">
+                    <select className="pq-bg-white e-mail-field mb-3">
+                      <option>Select Service</option>
+                      <option>Build web3 technology</option>
+                      <option>Supply of Bulk crypto currency</option>
+                      <option>Provide Advisory services</option>
+                    </select>
+                  </div>
+
                   <div className="col-md-12">
                     <textarea
                       name="your-message"
@@ -131,8 +140,8 @@ export default function ContactUs() {
                       className="pq-bg-white"
                       cols="10"
                       rows="4"
-                      placeholder="Your Message"
-                      required=""
+                      placeholder="Additional Message"
+                      required
                     ></textarea>
                   </div>
                   <div className="col-md-12">

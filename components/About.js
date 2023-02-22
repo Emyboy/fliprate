@@ -62,7 +62,7 @@ export default function About() {
                 </a>
               </li>
             </ul>
-            <a href="about-us.html" className="pq-button">
+            <a href="#our-services" className="pq-button">
               <div className="pq-button-block">
                 <span className="pq-button-text">Read More</span>
               </div>
