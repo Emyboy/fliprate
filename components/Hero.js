@@ -9,7 +9,9 @@ export default function Hero() {
         backgroundImage: `url('/assets/rev/assets/banner.jpg')`,
       }}
     >
-      <h1 style={{ fontSize: "70px" }} className="mb-4">Fliprate Technologies</h1>
+      <h1 style={{ fontSize: "70px", lineHeight: "65px" }} className="mb-4">
+        Fliprate Technologies
+      </h1>
       <h6 className="text-muted">Real Time solutions</h6>
     </div>
   );
