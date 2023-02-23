@@ -10,6 +10,11 @@ export const TeamData = [
     title: "Co-founder",
   },
   {
+    name: "Valentine Chugi",
+    img: "/img/chugi.jpg",
+    title: "Co-founder",
+  },
+  {
     name: "Martin Mbonu",
     img: "/img/martin.jpeg",
     title: "C.F.0",
