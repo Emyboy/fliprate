@@ -10,3 +10,9 @@ export const TeamData = [
     title: "C.E.O",
   },
 ];
+
+export const AllServices = [
+  {
+    title: "",
+  }
+]

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Header() {
@@ -58,13 +59,13 @@ export default function Header() {
           <div className="row">
             <div className="col-lg-12">
               <nav className="navbar navbar-expand-lg navbar-light">
-                <a className="navbar-brand" href="/">
+                <Link className="navbar-brand" href="/">
                   <img
                     className="img-fluid logo"
                     src="/brand.png"
                     alt="techtrix"
                   />
-                </a>
+                </Link>
                 <div
                   className="collapse navbar-collapse"
                   id="navbarSupportedContent"
@@ -72,7 +73,7 @@ export default function Header() {
                   <div id="pq-menu-contain" className="pq-menu-contain">
                     <ul id="pq-main-menu" className="navbar-nav ml-auto">
                       <li className="menu-item manu-item-has-children">
-                        <a href="/">Home</a>
+                        <a href="#">Home</a>
                         <i className="fa  pq-submenu-icon"></i>
                       </li>
                       <li className="menu-item manu-item-has-children">
@@ -80,14 +81,13 @@ export default function Header() {
                         <i className="fa  pq-submenu-icon"></i>
                       </li>
                       <li className="menu-item manu-item-has-children">
-                        <a href="#services">Services</a>
+                        <a href="#our-services">Services</a>
                         <i className="fa  pq-submenu-icon"></i>
                       </li>
                       <li className="menu-item manu-item-has-children">
                         <a href="#our-team">Our Team</a>
                         <i className="fa  pq-submenu-icon"></i>
                       </li>
-                      
                     </ul>
                   </div>
                 </div>
