@@ -80,10 +80,10 @@ export default function Services() {
                 >
                   <div className="pq-tabs-icon">
                     <i className=" flaticon-data-analytics"></i>
-                    <span>QA Testing</span>
+                    <span>Advisory Services</span>
                   </div>
                 </a>
-                <a
+                {/* <a
                   onClick={() => setTab(3)}
                   className={`pq-tabs nav-item nav-link ${
                     tab === 3 ? "active" : ""
@@ -100,7 +100,7 @@ export default function Services() {
                     <i className=" flaticon-ux-design"></i>
                     <span>Product design</span>
                   </div>
-                </a>
+                </a> */}
               </div>
               <div className="tab-content text-left" id="nav-tabContent">
                 <div
@@ -221,42 +221,40 @@ export default function Services() {
                     </div>
                     <div className="col-lg-6 align-self-center">
                       <div className="pq-tab-info">
-                        <h2>Cloud Hosting</h2>
+                        <h2>Provide Advisory services</h2>
                         <p>
-                          It is a long established fact that a reader will be
-                          distracted by the readable content of a page when
-                          looking at its layout. The point of using Lorem Ipsum.
+                          A think tank designed to engage web3 organizations as
+                          well as government agencies and regulators. Our aim is
+                          to drive relevant solutions through dialogue and
+                          collaboration, ensuring relevant stakeholders and
+                          engaged. Our engagement framework covers –
                         </p>
                         <h3>&nbsp;</h3>
                         <ul>
-                          <li>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit.
-                          </li>
-                          <li>
-                            Donec lobortis dui id diam facilisis, vitae
-                            pellentesque sem convallis.
-                          </li>
-                          <li>
-                            Vivamus volutpat dui nec mauris ultrices lacinia.
-                          </li>
-                          <li>
-                            Praesent ac velit aliquam, lacinia mi nec, feugiat
-                            ligula.
-                          </li>
+                          <li>Web 3 companies</li>
+                          <li>Government agencies and regulators</li>
+                          <li>Users and the general public.</li>
                         </ul>
-                        <div className="pq-btn-container">
+                        <h3>&nbsp;</h3>
+                        <p>
+                          We believe there are many safe, healthy and
+                          transparent points of collaboration between blockchain
+                          and established technology across financial,
+                          insurance, health and other services. We work to
+                          identify these points of synergy and collaboration.
+                        </p>
+                        {/* <div className="pq-btn-container">
                           <div className="pq-button-block">
                             <a className="pq-button" href="contact-us.html">
                               <span className="text">Read more</span>
                             </a>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>
                 </div>
-                <div
+                {/* <div
                   className={`tab-pane fade show ${tab === 3 && "active"}`}
                   // id="nav-3"
                   role="tabpanel"
@@ -304,7 +302,7 @@ export default function Services() {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
