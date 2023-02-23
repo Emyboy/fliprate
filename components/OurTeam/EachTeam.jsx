@@ -3,7 +3,7 @@ import React from "react";
 export default function EachTeam({ team }) {
   return (
     <div
-      className="owl-item- col-md-4 col-sm-12 mb-3 cloned"
+      className="owl-item- col-md-3 col-sm-12 mb-3 cloned"
       //   style={{ width: "405.333px", marginRight: "30px" }}
     >
       <div className="item">
@@ -13,7 +13,7 @@ export default function EachTeam({ team }) {
             <div
               style={{
                 backgroundImage: `url(${team?.img})`,
-                height: "500px",
+                height: "400px",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
