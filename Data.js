@@ -2,12 +2,17 @@ export const TeamData = [
   {
     name: "Debola Ajayi",
     img: "/img/debola.jpeg",
-    title: "C.E.O",
+    title: "Co-founder",
+  },
+  {
+    name: "Oluwabusola Marcus",
+    img: "/img/marcus.jpeg",
+    title: "Co-founder",
   },
   {
     name: "Martin Mbonu",
     img: "/img/martin.jpeg",
-    title: "C.E.O",
+    title: "C.F.0",
   },
 ];
 

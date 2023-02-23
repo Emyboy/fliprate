@@ -92,7 +92,7 @@ export default function ContactUs() {
                       type="text"
                       id="first-name"
                       className="pq-bg-white name-field"
-                      placeholder="Your Name"
+                      placeholder="Name"
                       required
                     />
                   </div>
