@@ -111,7 +111,10 @@ export default function Services() {
                 >
                   <div className="row align-items-center">
                     <div className="col-lg-6">
-                      <img src="/assets/images/tabs/1.jpg" alt="seo-image" />
+                      <img
+                        src="https://www.naceweb.org/uploadedimages/images/2020/feature/16-actions-for-shifting-culture-to-support-black-employees.jpg?n=5868"
+                        alt="seo-image"
+                      />
                     </div>
                     <div className="col-lg-6">
                       <div className="pq-tab-info">
@@ -177,7 +180,10 @@ export default function Services() {
                 >
                   <div className="row flex-row-reverse">
                     <div className="col-lg-6">
-                      <img src="/assets/images/tabs/2.jpg" alt="seo-image" />
+                      <img
+                        src="https://images.unsplash.com/photo-1620266757065-5814239881fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dHJhZGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80"
+                        alt="seo-image"
+                      />
                     </div>
                     <div className="col-lg-6 align-self-center">
                       <div className="pq-tab-info">
