@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <section className="pq-bg-grey pq-bg-img-1 business" id='about-us'>
+    <section className="pq-bg-grey pq-bg-img-1 business" id="about-us">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-xl-6 col-lg-6">
@@ -71,12 +71,14 @@ export default function About() {
           <div className="col-xl-6 col-lg-6 mt-4 mt-lg-0">
             <div className="about-us-img">
               <img
-                src="/assets/images/about-us/4.jpg"
+                src="https://img.freepik.com/premium-photo/african-business-team-briefing-discussing-ideas-new-startup-project_484651-18542.jpg"
+                // src="/assets/images/about-us/4.jpg"
                 className="pq-image6  wow zoomIn animated"
                 alt=""
               />
               <img
-                src="/assets/images/about-us/5.jpg"
+                // src="/assets/images/about-us/5.jpg"
+                src="https://img.freepik.com/free-photo/industrial-designers-working-3d-model_23-2149370120.jpg"
                 className="pq-image7  wow fadeInLeft animated"
                 alt=""
               />
