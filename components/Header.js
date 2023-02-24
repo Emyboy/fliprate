@@ -1,7 +1,10 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 
 export default function Header() {
+
+  const [showNav, setShow] = useState(false)
+
   return (
     <header id="pq-header" className="pq-header-default">
       <div className="pq-top-header">
@@ -67,7 +70,7 @@ export default function Header() {
                   />
                 </Link>
                 <div
-                  className="collapse navbar-collapse"
+                  className={`collapse navbar-collapse ${showNav && `show`}`}
                   id="navbarSupportedContent"
                 >
                   <div id="pq-menu-contain" className="pq-menu-contain">
@@ -124,6 +127,7 @@ export default function Header() {
                   </div>
                 </a>
                 <button
+                  onClick={() => setShow(!showNav)}
                   className="navbar-toggler"
                   type="button"
                   data-bs-toggle="collapse"
@@ -132,7 +136,7 @@ export default function Header() {
                   aria-expanded="false"
                   aria-label="Toggle navigation"
                 >
-                  <i className="fas fa-bars"></i>
+                  <i className={`fas fa-${showNav ? 'close' : 'bars'}`}></i>
                 </button>
               </nav>
             </div>
