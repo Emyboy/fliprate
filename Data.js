@@ -5,14 +5,14 @@ export const TeamData = [
     title: "Co-founder",
   },
   {
-    name: "Oluwabusola Marcus",
-    img: "/img/marcus.jpeg",
-    title: "Co-founder",
-  },
-  {
     name: "Valentine Chugi",
     img: "/img/chugi.jpg",
     title: "Co-founder",
+  },
+  {
+    name: "Oluwabusola Marcus",
+    img: "/img/marcus.jpeg",
+    title: "C.T.O",
   },
   {
     name: "Martin Mbonu",

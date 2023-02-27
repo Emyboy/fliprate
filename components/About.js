@@ -79,7 +79,7 @@ export default function About() {
               <img
                 // src="/assets/images/about-us/5.jpg"
                 src="https://img.freepik.com/free-photo/industrial-designers-working-3d-model_23-2149370120.jpg"
-                className="pq-image7  wow fadeInLeft animated"
+                className="pq-image7  wow fadeInLeft animated shadow"
                 alt=""
               />
             </div>
