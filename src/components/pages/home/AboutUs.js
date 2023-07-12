@@ -95,7 +95,7 @@ export default function AboutUs() {
 										href="#"
 										class="inline-flex justify-center gap-1 items-center px-6 py-4 rounded-lg bg-pblue-500 hover:bg-pblue-600 text-white transition-all"
 									>
-										<span>Consultation</span>
+										<span>Get it now</span>
 										<svg
 											class="stroke-white"
 											width="24"
@@ -113,10 +113,7 @@ export default function AboutUs() {
 										</svg>
 									</a>
 								</div>
-								
 							</div>
-							
-							
 						</div>
 						{/* <div>
 							<img src="assets/images/about/pm-signature.png" alt="" />
