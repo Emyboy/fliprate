@@ -3,7 +3,7 @@ import React from 'react'
 export default function AboutUs() {
 	return (
 		<section
-			className="py-20 lg:py-120 lg:pb-0- pb-120- bg-[#F7F7FD]"
+			className="py-120 lg:py-120 lg:pb-0- pb-120- bg-[#F7F7FD]"
 			style={{
 				background: `url('assets/images/about/about-pm-bg.png') no-repeat
             center center/cover`,

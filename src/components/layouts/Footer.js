@@ -16,8 +16,11 @@ export default function Footer() {
 							<img src="/img/brand.png" alt="" width={150} />
 						</a>
 						<p className="text-black text-base">
-							We work with a passion of taking challenges and creating pblue
-							ones in advertising sector.
+							Fliprate technologies is a leading solutions provider in the
+							crypto currency space, working with companies leveraging
+							blockchain technology to facilitate currency flows across borders.
+							With blockchain, payments are set to be low – cost secure and
+							processed quickly.
 						</p>
 						<div className="flex space-x-3 mt-7">
 							<a
@@ -153,7 +156,7 @@ export default function Footer() {
 									></path>
 								</svg>
 								<p className="text-black">
-									30 Commercial Road Fratton, Australia
+									Kiambere road building, Nachu Plaza, Nairobi Kenya.
 								</p>
 							</li>
 							<li className="flex space-x-2">
@@ -169,8 +172,11 @@ export default function Footer() {
 										fill="#2662FA"
 									></path>
 								</svg>
-								<a href="tel:1-888-452-1505" className="text-black text-base">
-									1-888-452-1505
+								<a
+									href="tel:+254 [0] 114569838"
+									className="text-black text-base"
+								>
+									{`+254 [0] 114569838`}
 								</a>
 							</li>
 						</ul>

@@ -87,10 +87,13 @@ export default function HomeHero() {
 						</div>
 					</div>
 
-					<div class="lg:col-span-1">
-						<img src={`/img/blue_box.png`} className="absolute -z-[0] top-[0px] right-[-260px]" />
+					<div class="lg:col-span-1 hidden lg:block">
+						<img
+							src={`/img/blue_box.png`}
+							className="absolute -z-[0] top-[0px] right-[-260px] hidden xl:block"
+						/>
 						<div class="relative">
-							<img src="/img/phone.png" className="w-[20rem]" alt="" />
+							<img src="/img/phone.png" className="w-[20rem] " alt="" />
 							{/* <img src="/assets/images/hero/hero-one/model-pm.png" alt="" /> */}
 							<div class="hidden md:block">
 								{/* <img

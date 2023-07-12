@@ -52,10 +52,12 @@ const EachHow = ({ heading, body, img }) => {
 				className="h-full text-center group-hover:border-transparent transition-all space-x-3 p-10 rounded-xl border border-dashed border-[#3A3E4E] items-center justify-center flex flex-col gap-5"
 			>
 				<img src={img} alt="icon" width={100} />
-				<h4 className="text-white text-[24px]">{heading}</h4>
-				<p className="text-white transition-all text-[16px] font-normal">
-					{body}
-				</p>
+				<div className='flex flex-col gap-2'>
+					<h4 className="text-white text-[24px]">{heading}</h4>
+					<p className="text-white transition-all text-[16px] font-normal">
+						{body}
+					</p>
+				</div>
 			</a>
 		</div>
 	)

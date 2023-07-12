@@ -39,7 +39,11 @@ const Each = ({ heading, body, img }) => {
 		>
 			<h4 className="text-[24px] font-semibold text-white">{heading}</h4>
 			<p className="text-white">{body}</p>
-			<img src={img} alt="phone" className="absolute bottom-0 right-0" />
+			<img
+				src={img}
+				alt="phone"
+				className="absolute bottom-0 right-0 hidden lg:block"
+			/>
 		</div>
 	)
 }
@@ -60,9 +64,9 @@ const Each2 = ({ heading, body, img }) => {
 					</h2>
 					<p className="text-xl xl:text-[16px] text-white mb-8">{body}</p>
 				</div>
-				<div className="xl:w-5/12">
+				<div className="xl:w-5/12 hidden lg:block">
 					<div className="max-w-lg">
-						<img src={img} alt="phone" className='bottom-0 absolute' />
+						<img src={img} alt="phone" className="bottom-0 absolute" />
 					</div>
 				</div>
 			</div>
