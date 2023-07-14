@@ -130,7 +130,7 @@ export default function Header() {
 						</div>
 						<div className="hidden xl:block">
 							<a
-								href="contact-us.html"
+								href="mailto:info@flip.co.ke"
 								className="bg-pblue-500 hover:bg-pblue-600 group text-white px-6 py-4 font-medium rounded-lg inline-flex justify-center items-center transition"
 							>
 								<span>Let's Talk</span>
