@@ -3,21 +3,22 @@ import React from 'react'
 export default function HomeHero() {
 	return (
 		<section
-			class="pt-44"
+			id='top'
+			className="pt-44"
 			style={{
 				background: `url('assets/images/hero/hero-one/hero-bg-pm.png')
             no-repeat center center/cover`,
 			}}
 		>
-			<div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-				<div class="grid lg:grid-cols-2 gap-10 place-items-center pb-20">
-					<div class="lg:col-span-1 z-10">
-						<h1 class="text-5xl leading-normal xl:text-[55px] xl:leading-snug mb-8  font-bold text-interface-100 text-pblue-500">
+			<div className="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+				<div className="grid lg:grid-cols-2 gap-10 place-items-center pb-20">
+					<div className="lg:col-span-1 z-10">
+						<h1 className="text-5xl leading-normal xl:text-[55px] xl:leading-snug mb-8  font-bold text-interface-100 text-pblue-500">
 							Facilitating fast & safe currency flows
 							{/* Hey, I am <br />
               Richard Lord <br /> */}
 							<mark
-								class="inline-block text-pblue-500"
+								className="inline-block text-pblue-500"
 								style={{
 									background: `url('assets/images/hero/hero-one/wide-line.svg')
                       no-repeat left bottom`,
@@ -26,21 +27,21 @@ export default function HomeHero() {
 								across borders
 							</mark>
 						</h1>
-						<p class="text-xl lg:text-2xl text-interface-200 mb-4">
+						<p className="text-xl lg:text-2xl text-interface-200 mb-4">
 							Our mobile app is the ultimate tool for buying, selling, and
 							managing your digital assets. With a user-friendly interface and
 							advanced security measures, you can trust us to keep your
 							transactions safe and efficient.
 						</p>
-						<div class="flex items-center gap-8 mt-10">
+						<div className="flex items-center gap-8 mt-10">
 							<img src="/img/play_store.png" />
 							{/* <a
 								href="contact-us.html"
-								class="bg-pblue-500 hover:bg-pblue-600 transition-all group text-white px-6 py-4 rounded-lg inline-flex justify-center items-center"
+								className="bg-pblue-500 hover:bg-pblue-600 transition-all group text-white px-6 py-4 rounded-lg inline-flex justify-center items-center"
 							>
 								<span>Hire Me</span>
 								<svg
-									class="stroke-white transform translate transition-transform group-hover:translate-x-2"
+									className="stroke-white transform translate transition-transform group-hover:translate-x-2"
 									width="24"
 									height="25"
 									viewBox="0 0 24 25"
@@ -58,9 +59,9 @@ export default function HomeHero() {
 							</a> */}
 							{/* <a
 								href="https://www.youtube.com/watch?v=XNhiqQJ01hQ"
-								class="flex video-popup items-center gap-5"
+								className="flex video-popup items-center gap-5"
 							>
-								<span class="w-[60px] pulsing h-[60px] rounded-full grid place-items-center border border-[#B0CAF0]">
+								<span className="w-[60px] pulsing h-[60px] rounded-full grid place-items-center border border-[#B0CAF0]">
 									<svg
 										width="18"
 										height="22"
@@ -75,11 +76,11 @@ export default function HomeHero() {
 									</svg>
 								</span>
 								<span>
-									<span class="text-interface-100 uppercase text-lg font-medium">
+									<span className="text-interface-100 uppercase text-lg font-medium">
 										WATCH
 									</span>
 									<br />
-									<span class="text-base font-medium text-interface-200">
+									<span className="text-base font-medium text-interface-200">
 										Intro Video
 									</span>
 								</span>
@@ -87,26 +88,26 @@ export default function HomeHero() {
 						</div>
 					</div>
 
-					<div class="lg:col-span-1 hidden lg:block">
+					<div className="lg:col-span-1 hidden lg:block">
 						<img
 							src={`/img/blue_box.png`}
 							className="absolute -z-[0] top-[0px] right-[-260px] hidden xl:block"
 						/>
-						<div class="relative">
+						<div className="relative">
 							<img src="/img/phone.png" className="w-[20rem] " alt="" />
 							{/* <img src="/assets/images/hero/hero-one/model-pm.png" alt="" /> */}
-							<div class="hidden md:block">
+							<div className="hidden md:block">
 								{/* <img
                   src="/img/phone_bg.png"
-                  class="absolute right-0 bottom-0 w-[600px]"
+                  className="absolute right-0 bottom-0 w-[600px]"
                   alt=""
                 />
                 <img
                   src="/assets/images/hero/hero-one/search.png"
-                  class="absolute right-0 top-0 xl:-right-14 xl:top-24"
+                  className="absolute right-0 top-0 xl:-right-14 xl:top-24"
                   alt=""
                 />
-                <div class=" absolute bottom-40 left-20">
+                <div className=" absolute bottom-40 left-20">
                   <img
                     src="/assets/images/hero/hero-one/circle-one.png"
                     alt=""
@@ -119,7 +120,7 @@ export default function HomeHero() {
 			</div>
 			<img
 				src="/assets/images/hero/hero-one/arrow-png.png"
-				class="bottom-[30px] hidden xl:block -left-16 absolute"
+				className="bottom-[30px] hidden xl:block -left-16 absolute"
 				alt=""
 			/>
 		</section>

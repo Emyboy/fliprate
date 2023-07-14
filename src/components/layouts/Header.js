@@ -1,6 +1,23 @@
-import React from 'react'
+import Link from 'next/link';
+import React, { useEffect, useState } from 'react'
+import { useWindowScroll } from 'react-use';
 
 export default function Header() {
+	const [fixed, setFixed] = useState(false);
+	const {  y } = useWindowScroll();
+
+	function handleButtonClick(theElement) {
+		const element = document.getElementById(theElement)
+		if(element) {
+			const offset = element.offsetTop
+
+			window.scrollTo({
+				top: offset,
+				behavior: 'smooth',
+			})
+		}
+	}
+
 	return (
 		<header className="main-header z-50">
 			<div className="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
@@ -65,29 +82,40 @@ export default function Header() {
 				</div>
 			</div>
 
-			<div className="main-menu sticky-header">
+			<div className={`main-menu sticky-header ${y > 200 && 'affix'}`}>
 				<div className="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-					<nav className="nav">
+					<nav className={`nav ${y > 200 && 'shadow-lg'}`}>
 						<div className="nav__data">
-							<a href="index.html" className="nav__logo">
+							<Link href="/" className="nav__logo">
 								<img src="/img/brand.png" width={150} alt="" />
-							</a>
+							</Link>
 							<div className="nav__toggle" id="nav-toggle">
 								<i className="fa-solid fa-bars nav__toggle-menu"></i>
 								<i className="fa-solid fa-xmark nav__toggle-close"></i>
 							</div>
 						</div>
-						<div className="nav__menu" id="nav-menu">
-							<ul className="nav__list">
-								<li className="dropdown__item">
-									<div className="nav__link dropdown__button">Home</div>
+						<div className="nav__menu " id="nav-menu">
+							<ul className="nav__list" style={{ zIndex: 80 }}>
+								<li
+									className="dropdown__item"
+									onClick={() => handleButtonClick('top')}
+								>
+									<a href="#top" className="nav__link dropdown__button">
+										Home
+									</a>
 								</li>
 
-								<li className="dropdown__item">
+								<li
+									className="dropdown__item"
+									onClick={() => handleButtonClick('how')}
+								>
 									<div className="nav__link dropdown__button">How It Works</div>
 								</li>
 
-								<li className="dropdown__item">
+								<li
+									className="dropdown__item"
+									onClick={() => handleButtonClick('about')}
+								>
 									<div className="nav__link dropdown__button">About Us</div>
 								</li>
 
