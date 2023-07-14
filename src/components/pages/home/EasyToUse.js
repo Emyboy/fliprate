@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function EasyToUse() {
 	return (
-		<section className="pb-20 lg:pb-120">
+		<section className="pb-20 lg:pb-120" id='how'>
 			<div className="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
 				<div className="flex flex-col lg:flex-row lg:items-center justify-between gap-10 lg:gap-16 xl:gap-24">
 					<div className="lg:w-1/2">
