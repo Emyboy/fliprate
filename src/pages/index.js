@@ -4,6 +4,7 @@ import EasilyCrypto from '@/components/pages/home/EasilyCrypto'
 import EasyToUse from '@/components/pages/home/EasyToUse'
 import HomeHero from '@/components/pages/home/HomeHero'
 import HowItWorks from '@/components/pages/home/HowItWorks'
+import RecentBlogs from '@/components/pages/home/RecentBlogs'
 import ServiceGrid from '@/components/pages/home/ServiceGrid'
 import VirtualPayment from '@/components/pages/home/VirtualPayment'
 import React from 'react'
@@ -18,10 +19,11 @@ export default function index() {
 					<EasilyCrypto />
 					<ServiceGrid />
 				</section>
-        <br />
-        <VirtualPayment />
-        <EasyToUse />
-        <HowItWorks />
+				<br />
+				<VirtualPayment />
+				<EasyToUse />
+				<HowItWorks />
+				<RecentBlogs />
 			</MainLayout>
 		</>
 	)
