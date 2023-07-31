@@ -23,7 +23,7 @@ export default function index() {
 				<VirtualPayment />
 				<EasyToUse />
 				<HowItWorks />
-				<RecentBlogs />
+				{/* <RecentBlogs /> */}
 			</MainLayout>
 		</>
 	)
