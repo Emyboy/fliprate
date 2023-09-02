@@ -1,51 +1,51 @@
-import React from 'react'
+import React from "react";
 
 export default function Footer() {
-  return (
-    <footer id="pq-footer" className="style-1">
-      <div className="pq-footer-style-1">
-        <div className="pq-footer-top">
-          <div className="pq-footer-bottom-list">
-            <div className="container">
-              <div className="row g-0">
-                <div className="col-lg-4 p-0">
-                  <div className="pq-footer-items">
-                    <i className="ti-location-pin"></i>
-                    <div className="pq-footer-items-info">
-                      <h4>Address</h4>
-                      <span>
-                        {" "}
-                        Kiambere road building, Nachu Plaza, Nairobi Kenya.{" "}
-                      </span>
+    return (
+        <footer id='pq-footer' className='style-1'>
+            <div className='pq-footer-style-1'>
+                <div className='pq-footer-top'>
+                    <div className='pq-footer-bottom-list'>
+                        <div className='container'>
+                            <div className='row g-0'>
+                                <div className='col-lg-4 p-0'>
+                                    <div className='pq-footer-items'>
+                                        <i className='ti-location-pin'></i>
+                                        <div className='pq-footer-items-info'>
+                                            <h4>Address</h4>
+                                            <span>
+                                                Kiambere road building, Nachu
+                                                Plaza, Nairobi Kenya.{" "}
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='col-lg-4 p-0'>
+                                    <div className='pq-footer-items'>
+                                        <i className='ti-mobile'></i>
+                                        <div className='pq-footer-items-info'>
+                                            <h4>call Us On</h4>
+                                            <a href='tel:+254 [0] 114569838'>
+                                                <span>+254 [0] 114569838</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='col-lg-4 p-0'>
+                                    <div className='pq-footer-items border-0'>
+                                        <i className='ti-email'></i>
+                                        <div className='pq-footer-items-info'>
+                                            <h4>Email Us</h4>
+                                            <a href='mailto:info@flip.co.ke'>
+                                                <span>info@flip.co.ke</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-                <div className="col-lg-4 p-0">
-                  <div className="pq-footer-items">
-                    <i className="ti-mobile"></i>
-                    <div className="pq-footer-items-info">
-                      <h4>call Us On</h4>
-                      <a href="tel:+254 [0] 114569838">
-                        <span>+254 [0] 114569838</span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4 p-0">
-                  <div className="pq-footer-items border-0">
-                    <i className="ti-email"></i>
-                    <div className="pq-footer-items-info">
-                      <h4>Email Us</h4>
-                      <a href="mailto:info@flip.co.ke">
-                        <span>info@flip.co.ke</span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* <div className="container">
+                    {/* <div className="container">
                     <div className="row">
                         <div className="col-xl-3 col-md-6">
                             <div className="widget">
@@ -141,21 +141,22 @@ export default function Footer() {
                         </div>
                     </div>
                 </div> */}
-        </div>
-        <div className="pq-copyright-footer">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6 col-md-6">
-                <span className="pq-copyright">
-                  <a target="_blank" href="#">
-                    {" "}
-                    Copyright 2022 Fliprate All Rights Reserved.
-                  </a>
-                </span>
-              </div>
-              <div className="col-lg-6 col-md-6">
-                <div className="pq-footer-link">
-                  {/* <ul>
+                </div>
+                <div className='pq-copyright-footer'>
+                    <div className='container'>
+                        <div className='row'>
+                            <div className='col-lg-6 col-md-6'>
+                                <span className='pq-copyright'>
+                                    <a target='_blank' href='#'>
+                                        {" "}
+                                        Copyright 2022 Fliprate All Rights
+                                        Reserved.
+                                    </a>
+                                </span>
+                            </div>
+                            <div className='col-lg-6 col-md-6'>
+                                <div className='pq-footer-link'>
+                                    {/* <ul>
                     <li>
                       <a href="#">Career</a>
                     </li>
@@ -166,12 +167,12 @@ export default function Footer() {
                       <a href="#">Privacy Policy</a>
                     </li>
                   </ul> */}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-  );
+        </footer>
+    );
 }
