@@ -1,28 +1,28 @@
 export const TeamData = [
-  {
-    name: "Debola Ajayi",
-    img: "/img/debola.jpeg",
-    title: "Co-founder",
-  },
-  {
-    name: "Valentine Chugi",
-    img: "/img/chugi.jpg",
-    title: "Co-founder",
-  },
-  {
-    name: "Oluwabusola Marcus",
-    img: "/img/marcus.jpeg",
-    title: "C.T.O",
-  },
-  {
-    name: "Martin Mbonu",
-    img: "/img/martin.jpeg",
-    title: "C.F.0",
-  },
+    {
+        name: "Debola Ajayi",
+        img: "/assets/images/team/debola.jpeg",
+        title: "Managing Partner, Fliprate",
+    },
+    {
+        name: "Martin Mbonu",
+        img: "/img/martin.jpeg",
+        title: "Managing Partner, Fliprate",
+    },
+    {
+        name: "Anita Epundu",
+        img: "/assets/images/team/anita.jpeg",
+        title: "Chief Marketing Officer",
+    },
+    {
+        name: "Abdullahi Mohamud Botan",
+        img: "/assets/images/team/botan.jpeg",
+        title: "Chief Innovation Officer",
+    },
 ];
 
 export const AllServices = [
-  {
-    title: "",
-  }
-]
+    {
+        title: "",
+    },
+];
