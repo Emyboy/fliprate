@@ -11,6 +11,9 @@ export const TeamData = [
         name: "Martin Mbonu",
         img: "/img/martin.jpeg",
         title: "Managing Partner, Fliprate",
+        social:{
+            linkedin:"https://www.linkedin.com/in/martin-mbonu"
+        }
     },
     {
         name: "Anita Epundu",
